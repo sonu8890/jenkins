@@ -1,15 +1,15 @@
 piple{
-agen any
+agent any
  stages{
  stage(" welcome"){
      step{
        echo "welcome this is a jenkin file "
        }
-       }
+    }
        stage("welcome"){
        steps{
        echo " welcome to the 2nd step"
        }
-       }
-    }
+      }
+}
  
